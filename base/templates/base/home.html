@@ -1,1 +1,92 @@
-<h3>Hello world!</h3>
+
+
+
+
+{% load static %}
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gokul Nair</title>
+    <link rel="stylesheet" href="{% static '/css/main.css' %}" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 ">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/logo.png' %}" alt="">
+                    <hr>
+                    <h4>👋Hi, I am Gokul</h4>
+                    <p>I am a CS undergrad, programmer and AI enthusisat</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>About me 👦</h4>
+                    <hr>
+                    <p>I am currently doing my Bachelors in Computer science from Opole University of Technology in Opole district of poland.
+                        I have a strong affinity with python programming language and i am very much attracted to its versatile and general purpose behaviour.
+                        My main motive is to create innovative engineering tech solutions for common problems using artificial intelligence and related platform.
+                    </p>
+                    <p>
+                        I create websites, chat bots and android application for clients who need simple and yet powerful tools for boosting their
+                        business.
+                    </p>
+                    <p>Get my Resume here 👉🏼 <a href=""> 👨🏻‍💻📄</a> </p>
+                    <ul class="social-links">
+                        <li class="social"><a href="https://www.facebook.com/gokul.nair.3133"><img src="{% static 'images/icons8-facebook-96.png' %}" alt="" class="social"></a></li>
+                        <li class="social"><a href="https://www.linkedin.com/in/gokulkannamballybalachandran/"><img src="{% static 'images/icons8-linkedin-96.png' %}" alt="" class="social"></a></li>
+                        <li class="social"><a href="https://twitter.com/GokulNa42884806"><img src="{% static 'images/icons8-twitter-96.png' %}" alt="" class="social"></a></li>
+                        <li class="social"><a href="https://www.instagram.com/_thataidev_/"><img src="{% static 'images/icons8-instagram-96.png' %}" alt="" class="social"></a></li>
+                        <li class="social"><a href="https://github.com/gokintosh"><img src="{% static 'images/icons8-github-96.png' %}" alt="" class="social"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My projects 🗂</h5>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My recent blog-posts 📝</h5>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My publications 📚 </h5>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Sign-up for my email news-letter 📧</h5>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
