@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a464462-e92c-45c1-9744-43ce7a2c7711" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/icons8-facebook-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/icons8-github-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/icons8-instagram-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/icons8-linkedin-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/icons8-twitter-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mywebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mywebsite/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581959408143</updated>
-      <workItem from="1581959410572" duration="15381000" />
+      <workItem from="1581959410572" duration="15664000" />
     </task>
     <servers />
   </component>

@@ -25,7 +25,7 @@ SECRET_KEY = 'df@e^2bpu_d&qut=k%pqw*^p3!y4qg)o^u+%#t#85kjdds_#bf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://gokulkannamballybalachandran.herokuapp.com/']
+ALLOWED_HOSTS = ['gokulkannamballybalachandran.herokuapp.com']
 
 
 # Application definition
